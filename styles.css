@@ -56,8 +56,11 @@ body {
 
 .controls .controls__colors {
     display: flex;
-    
+    justify-content: space-between;
+    width: 50vw;
+    flex-wrap: wrap;
 }
+
 .controls__colors .controls__color {
     width: 50px;
     height: 50px;
